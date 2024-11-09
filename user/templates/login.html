@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Login Page</title>
+    <link rel="stylesheet" href="{% static 'CSS/login.css' %}">
+</head>
+<body>
+    <a href="{% url 'reg' %}"><button id="reg" class="btn-bounce">User Registration</button></a>
+    <form method="POST">
+        {% csrf_token %}
+        <label for="" id="auth">Authenticate:-</label>
+        <input type="text" name="username" id="uin" placeholder="Username">
+        <input type="password" name="password" id="pin" placeholder="Password">
+        <button id="sub" type="submit" class="btn-shimmer">login</button>
+    </form>
+</body>
+</html>

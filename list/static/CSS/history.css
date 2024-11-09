@@ -1,0 +1,55 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+section{
+    /* border: 2px solid red; */
+    height: 95vh;
+    background-image: url("https://media.istockphoto.com/id/172478051/photo/vintage-fountain-pen.jpg?s=2048x2048&w=is&k=20&c=icDbTfUXDxA_L7B6_G5ziTcZmNCeWLwDmQRt1ms3C1E=");
+}
+
+section h1{
+    font-family: cursive;
+    font-size: 55px;
+    padding-left: 42vw;
+    padding-top: 5px;
+    font-weight: bold;
+}
+
+section div{
+    /* border: 2px solid red; */
+    width: 40vw;
+    /* height: 80vh; */
+    margin-left: 28vw;
+    border-radius: 20px;
+    background-color: rgba(0, 0, 0, 0.505);
+    padding: 10px;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+
+section div label{
+    font-size: 30px;
+    font-weight: bold;
+    font-family: cursive;
+    padding-left: 50px;
+    color: white;
+}
+
+section form button{
+    padding: 5px;
+    background-color: transparent;
+    border-radius: 8px;
+    position: absolute;
+    left: 150px;
+    top: 100px;
+    border-color: red;
+    color: red;
+    box-shadow: rgba(240, 46, 46, 0.4) 5px 5px, rgba(240, 46, 46, 0.3) 10px 10px, rgba(240, 46, 46, 0.2) 15px 15px, rgba(240, 46, 46, 0.1) 20px 20px, rgba(240, 46, 46, 0.05) 25px 25px;
+}
+
+section form button:hover{
+    transform: scale(1.09);
+    color: white;
+    background-color: red;
+}
