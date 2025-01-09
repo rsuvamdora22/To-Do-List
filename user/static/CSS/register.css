@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background-image: url('https://cdn.pixabay.com/photo/2017/10/05/14/43/register-2819608_960_720.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+form {
+    width: 90%;
+    max-width: 910px; /* Limits the form width for larger screens */
+    height: auto; /* Allows the form to adjust height */
+    background-color: rgba(0, 0, 0, 0.6);
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, 
+                rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, 
+                rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, 
+                rgba(0, 0, 0, 0.06) 0px 2px 1px, 
+                rgba(0, 0, 0, 0.09) 0px 4px 2px, 
+                rgba(0, 0, 0, 0.09) 0px 8px 4px, 
+                rgba(0, 0, 0, 0.09) 0px 16px 8px, 
+                rgba(0, 0, 0, 0.09) 0px 32px 16px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+form p input {
+    width: 100%;
+    max-width: 300px; /* Limits input size on large screens */
+    height: 35px;
+    border-radius: 5px;
+    border: none;
+    padding: 5px;
+    font-size: medium;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+form button {
+    width: 50%;
+    max-width: 200px;
+    align-self: center;
+    margin-top: 20px;
+    border-radius: 10px;
+    background-color: rgba(255, 0, 0, 0.7);
+    border: none;
+    font-size: medium;
+    padding: 10px;
+}
+
+form button:hover {
+    background-color: red;
+    color: white;
+}
+
+a {
+    position: absolute;
+    top: 40px;
+    right: 100px;
+    color: white;
+    text-decoration: none;
+    font-size: small;
+}
+
+#id_email,
+#id_usable_password_0,
+#id_usable_password_1 {
+    width: 100%;
+    max-width: 300px; /* Keeps inputs manageable */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    body {
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    form {
+        width: 95%;
+        padding: 15px;
+        font-size: medium;
+    }
+
+    form p input {
+        font-size: small;
+        padding: 4px;
+    }
+
+    form button {
+        font-size: small;
+    }
+
+    a {
+        font-size: small;
+        top: 10px;
+        right: 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    form {
+        width: 100%;
+        font-size: small;
+        padding: 10px;
+    }
+
+    form p input {
+        font-size: small;
+    }
+
+    form button {
+        width: 70%;
+        font-size: small;
+    }
+}

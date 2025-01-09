@@ -1,0 +1,78 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+section{
+    /* border: 2px solid red; */
+    height: 95vh;
+    background-image: url("https://cdn.pixabay.com/photo/2018/03/04/22/27/office-3199438_1280.jpg");
+    background-size: cover;
+}
+
+section h1{
+    padding-left: 43%;
+    font-family: cursive;
+    font-weight: bold;
+    font-size: 60px;
+    padding-top: 5px;
+}
+
+section div{
+    /* border: 2px solid red; */
+    width: 40vw;
+    margin-left: 29%;
+    height: 40vh;
+    background-color: rgba(150, 150, 151, 0.68);
+    border-radius: 50px;
+    padding: 30px;
+}
+
+section div label{
+    font-family: cursive;
+    font-size: 35px;
+}
+
+#T{
+    /* border: 2px solid red; */
+    width: 25vw;
+    position: absolute;
+    left: 39%;
+    top: 26%;
+}
+
+#D{
+    /* border: 2px solid red; */
+    width: 18vw;
+    position: absolute;
+    left: 47%;
+    top: 36%; 
+}
+
+#B{
+    padding: 5px 15px 5px 15px;
+    position: absolute;
+    left: 550px;
+    top: 350px;
+    border-radius: 5px;
+    background-color: transparent;
+}
+
+#B:hover{
+    transform: scale(1.07);
+    background-color: rgba(68, 68, 255, 0.632);
+}
+
+#Br{
+    padding: 5px 15px 5px 15px;
+    position: absolute;
+    left: 750px;
+    top: 350px;
+    border-radius: 5px;
+    background-color: transparent;
+}
+
+#Br:hover{
+    transform: scale(1.07);
+    background-color: rgba(68, 68, 255, 0.632);
+}
